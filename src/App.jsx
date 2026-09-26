@@ -9,8 +9,8 @@ export default function App() {
   return (
     <>
       <header>
-        <h1>Solicitudes</h1>
-        <p className="subtitle">Lo que llegó al área esta semana</p>
+        <h1>Solicitudes de Talento Humano</h1>
+        <p className="subtitle">Todo lo que llega al área</p>
       </header>
 
       <main>
@@ -23,7 +23,8 @@ export default function App() {
       </main>
 
       <footer>
-        <p id="credits">Hecho por Tu Nombre</p>
+        <p id="credits">Hecho por Nicolas Castaño</p>
+        <p className="version">Versión 1.0.1</p>
       </footer>
     </>
   );
